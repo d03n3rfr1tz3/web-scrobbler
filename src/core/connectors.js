@@ -1214,5 +1214,9 @@ define(function() {
 		matches: ['*://wynk.in/music*'],
 		js: 'connectors/wynk.js',
 		id: 'wynk',
+	}, {
+		label: 'Synology AudioStation',
+		matches: ['*://*.quickconnect.to*'],
+		js: ['connectors/synology.js'],
 	}];
 });
